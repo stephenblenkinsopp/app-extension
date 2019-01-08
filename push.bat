@@ -1,28 +1,28 @@
 @echo off
 echo -----------------------------------------------------------------------
-git status
-timeout 10 >nul
+rem git status
+timeout 5 >nul
 echo =======================================================================
 echo GIT init
 git init
 echo -----------------------------------------------------------------------
-git status
-timeout 10 >nul
+rem git status
+timeout 5 >nul
 echo =======================================================================
 echo GIT add .
 git add .
 echo -----------------------------------------------------------------------
-git status
-timeout 10 >nul
+rem git status
+timeout 5 >nul
 echo =======================================================================
-echo GIT commit -m "%1 %2 %3 %4 %5"
-git commit -m "%1 %2 %3 %4 %5"
+echo GIT commit -m %1
+git commit -m %1
 echo -----------------------------------------------------------------------
-git status
-timeout 10 >nul
+rem git status
+timeout 5 >nul
 echo =======================================================================
 echo GIT push -u appext master
 git push -u appext master
 echo -----------------------------------------------------------------------
-git status
+rem git status
 pause

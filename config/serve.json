@@ -9,7 +9,7 @@
         "42dd11a5-6c5e-43af-b65f-bea886fbd857": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "testMessage": "New NEW NEW message"
+            "testMessage": "New message"
           }
         }
       }

@@ -4,12 +4,12 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://ausport.sharepoint.com/SitePages/How%20To%20Use%20This%20Library.aspx",
+      "pageUrl": "https://ausport.sharepoint.com/sites/Applications/SitePages/Test-news.aspx",
       "customActions": {
         "42dd11a5-6c5e-43af-b65f-bea886fbd857": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "testMessage": "Test message"
+            "testMessage": "New NEW NEW message"
           }
         }
       }
